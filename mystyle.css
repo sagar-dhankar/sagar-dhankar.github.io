@@ -1,0 +1,94 @@
+*, body{
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+	background-color: #6495ed;
+	color: white;
+	font-family: arial;
+}
+
+#add {
+	background-color: #FF5555;
+	color: white;
+	font-size: 17px;
+	font-weight: 600;
+	padding: 7px 10px;
+	padding-right: 40px;
+	border: 0;
+	border-radius: 0 10px 10px 0;
+	margin-top: 25px;
+	cursor: pointer;
+	outline-style: none;
+}
+
+#add:hover {
+	background-color: #DA3131;
+}
+
+#add:active {
+	transform: translateY(1.6px);
+}
+
+.remove {
+	/*margin-top: 13px;*/
+	background-color: #f2f205;
+	float: right;
+	clear: both;
+	border-radius: 5px;
+	padding-right: 15px;
+	width: 60px;
+	height: 20px;
+	border-style: none;
+	margin-right: 70px;
+	transform: translateY(8px);
+	outline-style: none;
+	cursor: pointer;
+}
+
+.remove:hover {
+	background-color: #ffbb00;
+}
+.remove:active {
+	transform: translateY(.1px);
+}
+
+#wrapper {
+	background-color: #000365;
+	margin: auto; /* to Horizontally center the block elements */
+	margin-top: 120px; 
+	padding: 10px 60px 60px 30px;
+	border-radius: 5px;
+	width: 50%;
+}
+
+ul {
+	list-style: none;
+	line-height: 30px;
+	text-align: left;
+	margin-left: 70px;
+	margin-top: 40px;
+}
+
+#task {
+	width: 250px;
+	height: 32px;
+	border: 0;
+	border-radius: 10px 0 0 10px;
+	outline-style: none;
+	font-size: 17px;
+	margin-left: 20px;
+	/*font-weight: 500;*/
+	padding-left: 7px;
+	padding-right: 4px;
+}
+
+h1 {
+	margin-top: 35px;
+}
+
+hr.dashed {
+	border-style: none;
+	border-top: 1px dotted #f1f1f1;
+}
