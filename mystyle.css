@@ -61,8 +61,8 @@ body {
     #add {
     	padding: 0 0 ;
     }
-    #task {
-
+    .remove {
+	    margin-bottom: 5px;
     }
 }
 
