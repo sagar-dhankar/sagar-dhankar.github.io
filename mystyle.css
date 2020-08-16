@@ -14,10 +14,10 @@ body {
 	color: white;
 	font-size: 17px;
 	font-weight: 600;
-	padding: 7px 10px;
+	/*padding: 7px 10px;*/
 	padding-right: 40px;
 	border: 0;
-	border-radius: 0 10px 10px 0;
+	border-radius: 5px;
 	margin-top: 25px;
 	cursor: pointer;
 	outline-style: none;
@@ -54,31 +54,91 @@ body {
 	transform: translateY(.1px);
 }
 
+@media (max-width:700px){
+    #wrapper {
+    	width: 85%;
+    }
+    #add {
+    	padding: 0 0 ;
+    }
+    #task {
+
+    }
+}
+
+@media (max-width:1000px){
+    #wrapper {
+    	width: 75%;
+    }
+	
+	#task {
+		margin: 0 auto;
+		padding: 3px 0;
+	}
+
+	#add {
+		margin: 10px auto 20px auto;
+		padding: 4px 0;
+	}	
+}
+
+@media (min-width:700px){
+  /*#wrapper {
+  	width: 50%;
+  }*/
+	#task {
+		padding: 2px 7px;
+		/*margin-left: 30px;*/
+		margin-left: 10%;
+	}
+
+	#add {
+		padding: 5px 8px ;
+		margin: 10px auto;
+	}
+}
+
+@media (min-width:1000px){
+  #wrapper {
+  	width: 50%;
+  }
+	.row {
+		margin: 20px auto;
+	}
+	#task {
+		/*margin-left: 30px;*/
+		margin-left: 4%;
+	}
+	#add {
+		padding: 5px 14px;
+		margin: 0 auto;
+		margin-left: 5px;
+	}
+}
+
 #wrapper {
 	background-color: #000365;
 	margin: auto; /* to Horizontally center the block elements */
 	margin-top: 120px; 
-	padding: 10px 60px 60px 30px;
+	padding: 10px 30px 60px 30px;
 	border-radius: 5px;
-	width: 50%;
+	/*width: 50%;*/
 }
 
 ul {
 	list-style: none;
-	line-height: 30px;
+	/*line-height: 30px;*/
 	text-align: left;
 	margin-left: 70px;
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 }
 
 #task {
-	width: 250px;
-	height: 32px;
 	border: 0;
-	border-radius: 10px 0 0 10px;
+	border-radius: 10px;
 	outline-style: none;
-	font-size: 17px;
-	margin-left: 20px;
+	font-size: 16px;
+	/*margin-left: 20px;*/
 	/*font-weight: 500;*/
 	padding-left: 7px;
 	padding-right: 4px;
